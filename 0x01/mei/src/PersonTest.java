@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Calendar;
 import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -9,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PersonTest {
     Person person;
 
+    @SuppressWarnings("deprecation")
     @BeforeEach
     void setup(){
         person = new Person("Paul", "McCartney", new Date("01/01/2000"), true, true, true, 0);
