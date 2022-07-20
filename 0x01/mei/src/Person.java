@@ -51,4 +51,32 @@ public class Person {
     public void setSalary(float salary) {
         this.salary = salary;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setAnotherCompanyOwner(boolean anotherCompanyOwner) {
+        this.anotherCompanyOwner = anotherCompanyOwner;
+    }
+
+    public void setPensioner(boolean pensioner) {
+        this.pensioner = pensioner;
+    }
+
+    public void setPublicServer(boolean publicServer) {
+        this.publicServer = publicServer;
+    }
 }
